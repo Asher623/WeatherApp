@@ -1,0 +1,61 @@
+#searchForm{
+    margin-top: 30px;
+    
+}
+
+#weatherTitle{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+ul li{
+    display: inline-block;
+    margin-left: 30px;
+    
+}
+.listDiv{
+    margin-top: 50px;
+}
+
+.card{
+    border-radius: 25px;
+}
+
+#supCountry{
+    color: red;
+}
+
+#supTemp{
+    font-size: 1.4em;
+}
+
+#pTemp{
+    font-size: 2em;
+}
+
+spam{
+    font-size: 2.3em;
+}
+
+.card-body{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+
+.card-text{
+    font-size: 1.3em;
+}
+
+#notFoundLabel{
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+#subButton{
+    background-color: #3CA2C8;
+    color: white;
+}
+
+.card{
+    border-color: #3CA2C8;
+}

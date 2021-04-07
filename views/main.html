@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+    <script src="/js/main.js"></script>
+    <title>Document</title>
+</head>
+<body style = "background-color: #f2e6e6;">
+    <h2 id = "weatherTitle">Weather App</h2>
+    <form class = "form-inline" id = "searchForm" action="">
+        <div class="form-group mx-sm-3 ">
+            <input class="form-control" id = "cityInput" type="text" placeholder = "Search for a city">
+            
+        </div>
+         
+        
+        <input class="btn" id = "subButton" type="submit" name="button" value="SUBMIT">
+        
+    </form>
+    <p id = "notFoundLabel" style = " visibility:hidden">Hidden text </p>
+    
+    <div class = "listDiv">
+        <ul class = "weatherList" style="list-style-type:none;"></ul>
+    </div>
+</body>
+</html>
